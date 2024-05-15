@@ -1,0 +1,114 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+nav.navbar.bootsnav {
+    background-color: transparent;
+    border-bottom: transparent;
+}
+
+/*.navbar-brand*/
+.navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    padding: 45px 0px;
+    text-transform:uppercase;
+}
+
+/*.navbar-brand*/
+
+/*.nav li*/
+nav.navbar.bootsnav ul.nav > li > a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform:uppercase;
+    -webkit-transition: 0.3s linear; 
+    -moz-transition: 0.3s linear; 
+    -ms-transition: 0.3s linear; 
+    -o-transition: 0.3s linear; 
+    transition: 0.3s linear;
+}
+nav.navbar.bootsnav ul.nav > li > a {padding: 48px 21px;}
+nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus{color:#4e4ffa;}
+nav.navbar.bootsnav ul.nav > li.active>a {color: #000000;}
+
+
+nav.navbar.bootsnav .navbar-toggle i{color: #000000;}
+/*.navbar-toggle */
+
+/*-------------------------------------
+        3.  Welcome-hero
+--------------------------------------*/
+.welcome-hero {
+    position: relative;
+    background:url(../images/joker.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+    .container {
+        width: 50%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the container */
+    }
+
+
+
+
+.frm {
+    margin-bottom: 20px;
+    width: 500px;
+    color: white;
+}
+
+.frm label {
+    display: inline-block;
+    width: 100px; /* Adjust the label width as needed */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.frm input[type="text"],
+.frm input[type="email"],
+.frm select,
+.frm textarea {
+    width: calc(100% - 110px); /* Adjust the input width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.frm button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #109500;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.frm button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.frm select{
+    color: #000000;
+}
